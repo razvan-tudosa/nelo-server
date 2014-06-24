@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "~3.3.4",
+    "MD5": "1.2.1",
+    "mongoose": "3.8.11",
+    "cors": "2.3.1",
+    "formidable": "^1.0.14",
+    "nodemailer": "~0.6.5",
+    "moment": "^2.7.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-develop": "~0.2.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "request": "~2.27.0",
+    "time-grunt": "~0.1.1",
+    "load-grunt-tasks": "~0.2.0"
+  }
+}
